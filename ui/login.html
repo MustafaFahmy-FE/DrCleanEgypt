@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Meta Tags
+        ==============================-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="" />
+    <title>DR Clean</title>
+
+    <!-- Fave Icons
+    ================================-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <!-- CSS Files
+    ================================-->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Preloader
+    =============================-->
+    <div class="preloader">
+      <div class="load_cont">
+        <img src="assets/images/loader.gif" />
+      </div>
+    </div>
+    <div class="login text-center">
+      <form>
+        <div class="steps_title">
+          <span class="fa fa-lock"> </span> تسجيل دخول
+        </div>
+        <div class="form-group">
+          <label> إسم المستخدم </label>
+          <i class="fa fa-user-alt"></i>
+          <input
+            type="email"
+            class="form-control"
+            placeholder=" البريد الألكترونى / إسم المستخدم "
+          />
+        </div>
+        <div class="form-group password_input">
+          <label> كلمة المرور </label>
+          <i class="fa fa-lock"></i>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="كلمة المرور"
+          />
+          <button
+            class="fa fa-eye"
+            id="show_pass"
+            onclick="toggle()"
+            type="button"
+          ></button>
+        </div>
+        <button class="link">
+          <span>
+            تسجيل دخول
+            <i class="fa fa-angle-left"></i>
+          </span>
+        </button>
+      </form>
+    </div>
+
+    <!-- JS & Vendor Files
+    ==========================================-->
+    <script src="assets/vendor/jquery/jquery.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
